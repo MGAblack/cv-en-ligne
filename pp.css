@@ -43,7 +43,6 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 15px;
   margin-top: 20px;
-	position: relative;
 }
 
 .gallery img {
@@ -67,4 +66,30 @@ footer {
   color: #94a3b8;
   margin-top: 30px;
 
+}
+@media (max-width: 768px) {
+  header {
+    padding: 15px 10px;
+  }
+
+  h2, p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .gallery img {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    padding: 15px 10px;
+  }
 }
