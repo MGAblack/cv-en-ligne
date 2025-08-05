@@ -43,6 +43,7 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 15px;
   margin-top: 20px;
+	position: relative;
 }
 
 .gallery img {
@@ -65,4 +66,5 @@ footer {
   background: #1e293b;
   color: #94a3b8;
   margin-top: 30px;
+
 }
